@@ -40,4 +40,7 @@ cd /usr/local && sudo tar --strip-components 1 -xzf $DIR/$VER
 
 rm $DIR/$VER
 
+ln -s /usr/local/bin/node /usr/bin/node
+ln -s /usr/local/bin/npm /usr/bin/npm
+
 echo "Finished installing!"
